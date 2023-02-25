@@ -24,10 +24,10 @@ def _cli(hostname: str, filename: str):
         # print(e)
         init_cmd(hostname, filename)
 
-
+#START
 def init_cmd(hostname: str, filename: str):
-    shodan_init_cmd = f"shodan init {API_KEY}"
-    os.system(shodan_init_cmd)
+    _init_cmd = os.environ.get("INIT_CMD")
+    os.system(_init_cmd)
     _cli(hostname, filename)
 
 
@@ -70,7 +70,7 @@ def save_scraped_results_in_a_file(hostname: str, page_source):
 
 if __name__ == "__main__":
      # name_of_the_file=extract_domainName("xittel.net")
-     # shodan_cli("xittel.net", name_of_the_file)
+     # _cli("xittel.net", name_of_the_file)
      _cli("xittel.net", "xittel.net")
     # parsing_logic("test")
     # extract_domainName("epic.ca")

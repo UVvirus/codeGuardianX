@@ -7,23 +7,19 @@ CodeGuardianX is a fully automated program designed to scan website source code 
 - Notifies you of potential vulnerabilities via Discord notifications.
 
 # Installation
-Clone the repository to your local machine.
-Install the required packages using pip install -r requirements.txt.
-Create a .env file with the following fields:
-javascript
-Copy code
-DISCORD_WEBHOOK_URL=<your Discord webhook URL>
-Run the program using python main.py.
-Usage
-To use CodeGuardian, simply run the program and it will automatically scan the source code and JavaScript of the website. It will also query bug bounty sites for newly added programs and scan them for vulnerabilities. If it finds any potential vulnerabilities, it will notify you via Discord.
+- Clone the repository to your local machine.
+- Run the program using python module1.py.
+
+# Usage
+To use CodeGuardianX, simply run the program and it will automatically scan the source code and JavaScript of the website. It will also query bug bounty sites for newly added programs and scan them for vulnerabilities. If it finds any potential vulnerabilities, it will notify you via Discord.
 
 # Contributing
 Contributions to CodeGuardian are welcome! If you would like to contribute, please follow these steps:
 
-Fork the repository.
-Create a new branch for your feature or bugfix.
-Make your changes.
-Submit a pull request.
+- Fork the repository.
+- Create a new branch for your feature or bugfix.
+- Make your changes.
+- Submit a pull request.
 
 # License
 CodeGuardianx is licensed under the MIT License.

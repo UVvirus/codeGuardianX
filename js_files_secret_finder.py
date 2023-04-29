@@ -4,6 +4,7 @@ from urllib.request import urlretrieve
 import find_secrets_from_source_code
 from urllib.parse import urlparse
 
+#START
 def scrap_javascript_from_webpage(url: str):
     filename = url.replace(".","_").replace("/","_")
     print("Saving into a file...")
